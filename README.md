@@ -1,4 +1,8 @@
-# thoughtbot Middleman Starter
+# WhiskeyTusday Middleman Template
+
+My template for future simple web development projects, becuase I was tired ofthe old 'middleman-init-then-change-things-I-dont-like' routine. I got started making my own tempplate at one point and then realised that thoughtbot had pretty much done it for me with their proteus-kits package. I haven't made many changes but in case I want to I thought I'd make a repo.
+
+The following is the full README.md from the proteus-kits repo.
 
 ## About
 

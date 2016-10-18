@@ -14,3 +14,6 @@ gem "middleman-livereload", "~> 3.4"
 gem "middleman-sprockets", "= 4.0.0.rc.1"
 gem "neat", "~> 1.7"
 gem "sassc", "~> 1.8"
+
+# Fix ubuntu's lack of javascript runtime
+gem "therubyracer"
