@@ -1,19 +1,33 @@
-body {
-  background-color: $light-gray;
-  color: $medium-gray;
+@font-face {
+    font-family: 'helvetica_ultralight';
+    src: url('helveticaneue-ultralight-webfont.woff2') format('woff2'),
+         url('helveticaneue-ultralight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
-.delete-me {
-  align-items: center;
-  display: flex;
-  justify-content: center;
-  height: 100vh;
+body{
+    margin:2rem;
+      font-family: helvetica_ultralight, sans-serif;
+        background-color:$background;
+          color:$text;
+            font-size:16pt;
+}
 
-  .container {
-    text-align: center;
+.heading{
+    font-size:2rem;
+      color:$heading;
+}
 
-    h1 {
-      font-weight: 200;
-    }
-  }
+a{
+    color:$link;
+}
+a:hover{
+    color:$hover;
+}
+
+#things{
+  margin-top:0.5rem;
+    margin-left:2rem;
 }
