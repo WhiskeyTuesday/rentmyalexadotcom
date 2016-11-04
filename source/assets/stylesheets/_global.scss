@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'helvetica_ultralight';
-    src: url('helveticaneue-ultralight-webfont.woff2') format('woff2'),
-         url('helveticaneue-ultralight-webfont.woff') format('woff');
+    src: url('/assets/fonts/helveticaneue-ultralight-webfont.woff2') format('woff2'),
+         url('/assets/fonts/helveticaneue-ultralight-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -30,4 +30,17 @@ a:hover{
 #things{
   margin-top:0.5rem;
     margin-left:2rem;
+}
+
+#outer-container{
+  @include outer-container;
+}
+
+@media (min-width: 768px){
+  #left{
+    @include span-columns(6 of 12);
+  }
+  #right{
+    @include span-columns(6 of 12);
+  }
 }
