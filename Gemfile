@@ -13,7 +13,7 @@ gem "middleman-deploy", "= 2.0.0.pre.alpha"
 gem "middleman-livereload", "~> 3.4"
 gem "middleman-sprockets", "= 4.0.0.rc.1"
 gem "neat", "~> 1.7"
-gem "sassc", "~> 1.8"
+gem "sassc", "= 1.10"
 
 # Fix ubuntu's lack of javascript runtime
 gem "therubyracer"
